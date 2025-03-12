@@ -12,8 +12,6 @@ typedef struct collection_of_data{
 void father(FILE *fptr, cof data[]);
 void myself(FILE *fptr,cof data[]);
 
-
-
 int main(void){
   cof data[10];
   FILE *fptr;
@@ -27,8 +25,6 @@ int main(void){
    fclose(fptr);
    return 0;
    }
-
-
 
 void father(FILE *fptr,cof data[]){
  printf("\033[1;35mDetail of Father \n\033[0m");
